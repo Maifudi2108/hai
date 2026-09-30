@@ -1,0 +1,162 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modules - BSc Mathematical Sciences</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-size: 28px;
+      color: #004080;
+    }
+    header h2 {
+      font-size: 22px;
+      color: #0066cc;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+      background-color: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+    table th {
+      background-color: #004080;
+      color: #fff;
+      font-weight: bold;
+    }
+    table tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    table tr:hover {
+      background-color: #e6f2ff;
+    }
+    section h3 {
+      color: #004080;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>School of Mathematical and Computer Sciences</h1>
+    <h2>Bachelor of Science (Mathematical Sciences)</h2>
+  </header>
+
+  <main>
+    <!-- YEAR LEVEL 1 -->
+    <section>
+      <h3>Year Level 1 - Semester 1</h3>
+      <table>
+        <thead><tr><th>Module Name</th><th>Code</th><th>Prerequisite</th><th>Credits</th><th>Lecturer</th></tr></thead>
+        <tbody>
+          <tr><td>Differential and Integral Calculus</td><td>SMTH011</td><td>None</td><td>12</td><td>Dr. Khumalo</td></tr>
+          <tr><td>Health Education and Life Competencies I</td><td>SHEL011</td><td>None</td><td>12</td><td>Prof. Mokoena</td></tr>
+          <tr><td>Introduction to Applied Mathematics</td><td>SAPM011</td><td>None</td><td>12</td><td>Dr. Chauke</td></tr>
+          <tr><td>Computing Concepts and Algorithms</td><td>SCSC011</td><td>None</td><td>12</td><td>Mr. Baloyi</td></tr>
+          <tr><td>General Physics 1A *</td><td>SPHS011</td><td>Grade 12 Physical Science ≥ 60%</td><td>12</td><td>Dr. Molefe</td></tr>
+          <tr><td>Introduction to Statistics</td><td>SSTS011</td><td>None</td><td>12</td><td>Ms. Nkadimeng</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Year Level 1 - Semester 2</h3>
+      <table>
+        <thead><tr><th>Module Name</th><th>Code</th><th>Prerequisite</th><th>Credits</th><th>Lecturer</th></tr></thead>
+        <tbody>
+          <tr><td>Set Theory, Linear and Abstract Algebra</td><td>SMTH012</td><td>None</td><td>12</td><td>Dr. Ramaphosa</td></tr>
+          <tr><td>Health Education and Life Competencies II</td><td>SHEL012</td><td>None</td><td>12</td><td>Prof. Mokoena</td></tr>
+          <tr><td>Computational Mathematics and Modelling</td><td>SAPM012</td><td>None</td><td>12</td><td>Dr. Chauke</td></tr>
+          <tr><td>Data Organization and Artificial Intelligence</td><td>SCSC012</td><td>None</td><td>12</td><td>Mr. Shikwambana</td></tr>
+          <tr><td>General Physics 1B *</td><td>SPHS012</td><td>Grade 12 Physical Science ≥ 60%</td><td>12</td><td>Dr. Molefe</td></tr>
+          <tr><td>Introduction to Statistical Inference</td><td>SSTS012</td><td>None</td><td>12</td><td>Ms. Nkadimeng</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- YEAR LEVEL 2 -->
+    <section>
+      <h3>Year Level 2 - Semester 1</h3>
+      <table>
+        <thead><tr><th>Module Name</th><th>Code</th><th>Prerequisite</th><th>Credits</th><th>Lecturer</th></tr></thead>
+        <tbody>
+          <tr><td>Advanced Calculus</td><td>SMTA021</td><td>None</td><td>20</td><td>Dr. Khumalo</td></tr>
+          <tr><td>Ordinary and Partial Differential Equations</td><td>SAPA021</td><td>SMTH011, SMTH012</td><td>20</td><td>Dr. Chauke</td></tr>
+          <tr><td>Data Structures</td><td>SCOA021</td><td>SMTH011</td><td>20</td><td>Mr. Baloyi</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Year Level 2 - Semester 2</h3>
+      <table>
+        <thead><tr><th>Module Name</th><th>Code</th><th>Prerequisite</th><th>Credits</th><th>Lecturer</th></tr></thead>
+        <tbody>
+          <tr><td>Advanced Calculus</td><td>SMTA022</td><td>None</td><td>20</td><td>Dr. Khumalo</td></tr>
+          <tr><td>Numerical Analysis</td><td>SAPA022</td><td>SMTH011, SMTH012, SAPM011, SAPM012</td><td>20</td><td>Dr. Chauke</td></tr>
+          <tr><td>Computer Architecture</td><td>SCOA022</td><td>SMTH011, SMTH012, SCSC011, SCSC012</td><td>20</td><td>Mr. Baloyi</td></tr>
+          <tr><td>Game and Decision Theory</td><td>SSOA022</td><td>SMTH011, SMTH012, SSTS011, SSTS012</td><td>20</td><td>Dr. Ramaphosa</td></tr>
+          <tr><td>Statistical Inference</td><td>SSTA022</td><td>SMTH011, SMTH012, SSTS011, SSTS012</td><td>20</td><td>Ms. Nkadimeng</td></tr>
+          <tr><td>Electrodynamics and Electronics</td><td>SPHA022</td><td>None</td><td>10</td><td>Dr. Molefe</td></tr>
+          <tr><td>Waves and Physical Optics</td><td>SPHB022</td><td>None</td><td>10</td><td>Dr. Molefe</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+       <!-- YEAR LEVEL 3 -->
+    <section>
+      <h3>Year Level 3 - Semester 1</h3>
+      <table>
+        <thead><tr><th>Module Name</th><th>Code</th><th>Prerequisite</th><th>Credits</th><th>Lecturer</th></tr></thead>
+        <tbody>
+          <tr><td>Fluid Mechanics</td><td>SPA031</td><td>SAPA021, SAPA022, SMTA021, SMTA022</td><td>32</td><td>Dr. Chauke</td></tr>
+          <tr><td>Database Systems</td><td>SCOA031</td><td>SCOA021, SCOA022</td><td>16</td><td>Mr. Baloyi</td></tr>
+          <tr><td>Operating Systems</td><td>SCOB031</td><td>SCOA021, SCOA022</td><td>16</td><td>Mr. Baloyi</td></tr>
+          <tr><td>Mathematical Analysis I</td><td>SMTA031</td><td>SMTA021</td><td>16</td><td>Dr. Khumalo</td></tr>
+          <tr><td>Abstract Algebra</td><td>SMTB031</td><td>SMTA022</td><td>16</td><td>Dr. Ramaphosa</td></tr>
+          <tr><td>Quantum Mechanics</td><td>SPHA031</td><td>SPHA021</td><td>16</td><td>Dr. Molefe</td></tr>
+          <tr><td>Thermodynamics & Statistical Mechanics</td><td>SPHB031</td><td>SPHB021</td><td>16</td><td>Dr. Molefe</td></tr>
+          <tr><td>Statistical Quality Control</td><td>SSOA031</td><td>SSTA021, SSTA022</td><td>16</td><td>Ms. Nkadimeng</td></tr>
+          <tr><td>Advanced Linear Programming</td><td>SSOB031</td><td>SSOA021, SMTA022</td><td>16</td><td>Dr. Ramaphosa</td></tr>
+          <tr><td>Time Series Analysis</td><td>SSTA031</td><td>SSTA021, SSTA022</td><td>16</td><td>Ms. Nkadimeng</td></tr>
+          <tr><td>Applied Linear Regression</td><td>SSTB031</td><td>SSTA021, SSTA022, SMTA022</td><td>16</td><td>Ms. Nkadimeng</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Year Level 3 - Semester 2</h3>
+      <table>
+        <thead><tr><th>Module Name</th><th>Code</th><th>Prerequisite</th><th>Credits</th><th>Lecturer</th></tr></thead>
+        <tbody>
+          <tr><td>Electromagnetism & Special Relativity</td><td>SAPA032</td><td>SAPA021, SAPA022, SMTA021, SMTA022</td><td>32</td><td>Dr. Chauke</td></tr>
+          <tr><td>Artificial Intelligence</td><td>SCOA032</td><td>SCOA021, SCOA022</td><td>16</td><td>Mr. Shikwambana</td></tr>
+          <tr><td>Computer Networks</td><td>SCOB032</td><td>SCOA021, SCOA022</td><td>16</td><td>Mr. Baloyi</td></tr>
+          <tr><td>Complex Analysis & Mathematical Analysis II</td><td>SMTA032, SMTB032</td><td>SMTA021</td><td>16</td><td>Dr. Khumalo</td></tr>
+          <tr><td>Solid State Physics</td><td>SPHA032</td><td>SPHA022</td><td>16</td><td>Dr. Molefe</td></tr>
+          <tr><td>Electrodynamics & Electronics</td><td>SPHB032</td><td>SPHB022</td><td>16</td><td>Dr. Molefe</td></tr>
+          <tr><td>Integer Programming</td><td>SSOA032</td><td>SSOA021, SMTA022</td><td>16</td><td>Dr. Ramaphosa</td></tr>
+          <tr><td>Dynamic Programming</td><td>SSOB032</td><td>SSOA021, SMTA022</td><td>16</td><td>Dr. Ramaphosa</td></tr>
+          <tr><td>Queuing Models</td><td>SSOC032</td><td>SSOA021, SMTA022</td><td>16</td><td>Dr. Chauke</td></tr>
+          <tr><td>Design & Analysis of Experiments</td><td>SSTA032</td><td>SSTA021, SSTA022</td><td>16</td><td>Ms. Nkadimeng</td></tr>
+          <tr><td>Multivariate Statistical Methods</td><td>SSTB032</td><td>SSTA021, SSTA022, SMTA022</td><td>16</td><td>Ms. Nkadimeng</td></tr>
+          <tr><td>Sampling Theory</td><td>SSTC032</td><td>SSTA021, SSTA022</td><td>16</td><td>Ms. Nkadimeng</td></tr>
+        </tbody>
+      </table>
+    </section>
